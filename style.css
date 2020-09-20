@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+
+/**GENERAL FORMATTING**/
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray
+}
+
+/**HEADER**/
+
+h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
